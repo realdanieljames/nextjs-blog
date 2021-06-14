@@ -1,4 +1,4 @@
-import { getStaticProps } from ".."
+
 import Layout from "../../components/layout"
 // The post page is now using the getPostData function in getStaticProps 
 // to get the post data and return it as props.
