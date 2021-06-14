@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 // to get the post data and return it as props.
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
+
 import utilStyles from "../../styles/utils.module.css";
 
 export async function getStaticProps({ params }) {
