@@ -40,6 +40,7 @@ export default function Post({postData}){
             <br />
             {postData.date}
             <br />
+            {/* render contentHtml using dangerouslySetInnerHTML: */}
             <div dangerouslySetInnerHTML={{__html: postData.contentHtml}}/>
         </Layout>
     )
